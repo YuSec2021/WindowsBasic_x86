@@ -56,7 +56,7 @@ void PE<T>::searchExportTable(const char* funcName) {
 		return;
 	}
 
-	this->pExportDirectory = (PIMAGE_EXPORT_DIRECTORY) & (((PBYTE)this->lpBuffer)[this->RVAToRAW(this->pDataDirectory->VirtualAddress)]);
+	this->pExportDirectory = (PIMAGE_EXPORT_DIRECTORY) & (((PBYTE)this->lpBuffer)[this->pDataDirectory->VirtualAddress]);
 
 	DWORD offset = this->searchFunctionAddress(funcName);
 
