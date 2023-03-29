@@ -132,17 +132,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="base.cpp" />
     <ClCompile Include="fuckdll.cpp" />
-    <ClCompile Include="GetExitProcess.cpp" />
-    <ClCompile Include="pe.cpp" />
-    <ClCompile Include="源.cpp" />
+    <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="base.h" />
+    <ClInclude Include="base.hpp" />
     <ClInclude Include="fuckdll.h" />
-    <ClInclude Include="GetExitProcess.h" />
-    <ClInclude Include="pe.h" />
+    <ClInclude Include="GetExitProcess.hpp" />
+    <ClInclude Include="pe.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

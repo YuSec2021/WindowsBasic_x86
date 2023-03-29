@@ -15,16 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="源.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="GetExitProcess.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="pe.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="base.cpp">
+    <ClCompile Include="main.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="fuckdll.cpp">
@@ -32,14 +23,14 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="GetExitProcess.h">
-      <Filter>头文件</Filter>
+    <ClInclude Include="base.hpp">
+      <Filter>源文件</Filter>
     </ClInclude>
-    <ClInclude Include="pe.h">
-      <Filter>头文件</Filter>
+    <ClInclude Include="GetExitProcess.hpp">
+      <Filter>源文件</Filter>
     </ClInclude>
-    <ClInclude Include="base.h">
-      <Filter>头文件</Filter>
+    <ClInclude Include="pe.hpp">
+      <Filter>源文件</Filter>
     </ClInclude>
     <ClInclude Include="fuckdll.h">
       <Filter>头文件</Filter>

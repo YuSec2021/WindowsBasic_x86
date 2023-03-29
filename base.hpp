@@ -1,4 +1,10 @@
-#include "base.h"
+#pragma once
+
+#include "fuckdll.h"
+#include "pe.hpp"
+
+void BaseSearch(const wchar_t* dllName, const char* funcName);
+
 
 void BaseSearch(const wchar_t* dllName, const char* funcName) {
 	FuckDll* dll = new FuckDll(dllName);
@@ -16,3 +22,4 @@ void BaseSearch(const wchar_t* dllName, const char* funcName) {
 		pe.searchExportTable(funcName);
 	}
 }
+

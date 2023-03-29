@@ -1,13 +1,8 @@
-﻿  base.cpp
-C:\Users\yusec\source\repos\Project6\pe.cpp(89,20): warning C4018: “<”: 有符号/无符号不匹配
-C:\Users\yusec\source\repos\Project6\pe.cpp(87,60): message : 在编译 类 模板 成员函数“DWORD PE<PIMAGE_OPTIONAL_HEADER32>::searchFunctionAddress(const char *)”时
-C:\Users\yusec\source\repos\Project6\pe.cpp(61,15): message : 查看对正在编译的函数 模板 实例化“DWORD PE<PIMAGE_OPTIONAL_HEADER32>::searchFunctionAddress(const char *)”的引用
-C:\Users\yusec\source\repos\Project6\pe.cpp(4,28): message : 在编译 类 模板 成员函数“PE<PIMAGE_OPTIONAL_HEADER32>::PE(LPVOID)”时
-C:\Users\yusec\source\repos\Project6\base.cpp(11,32): message : 查看对正在编译的函数 模板 实例化“PE<PIMAGE_OPTIONAL_HEADER32>::PE(LPVOID)”的引用
-C:\Users\yusec\source\repos\Project6\base.cpp(11,38): message : 查看对正在编译的 类 模板 实例化“PE<PIMAGE_OPTIONAL_HEADER32>”的引用
-  fuckdll.cpp
-  GetExitProcess.cpp
-  pe.cpp
-  源.cpp
-  正在生成代码...
+﻿  main.cpp
+C:\Users\yusec\source\repos\Project6\pe.hpp(121,20): warning C4018: “<”: 有符号/无符号不匹配
+C:\Users\yusec\source\repos\Project6\pe.hpp(119,60): message : 在编译 类 模板 成员函数“DWORD PE<PIMAGE_OPTIONAL_HEADER32>::searchFunctionAddress(const char *)”时
+C:\Users\yusec\source\repos\Project6\pe.hpp(93,15): message : 查看对正在编译的函数 模板 实例化“DWORD PE<PIMAGE_OPTIONAL_HEADER32>::searchFunctionAddress(const char *)”的引用
+C:\Users\yusec\source\repos\Project6\pe.hpp(36,28): message : 在编译 类 模板 成员函数“PE<PIMAGE_OPTIONAL_HEADER32>::PE(LPVOID)”时
+C:\Users\yusec\source\repos\Project6\base.hpp(17,32): message : 查看对正在编译的函数 模板 实例化“PE<PIMAGE_OPTIONAL_HEADER32>::PE(LPVOID)”的引用
+C:\Users\yusec\source\repos\Project6\base.hpp(17,38): message : 查看对正在编译的 类 模板 实例化“PE<PIMAGE_OPTIONAL_HEADER32>”的引用
   Project6.vcxproj -> C:\Users\yusec\source\repos\Project6\x64\Debug\Project6.exe
